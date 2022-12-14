@@ -1,0 +1,38 @@
+main {
+    margin: 50px 0 100px 0 ;
+    padding: 0;
+}
+
+.hero {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .card {
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #5ca3be;
+        border-radius: 10px;
+
+        .img {
+            border-radius: 10px;
+        }
+
+        .card__body {
+            margin: 0;
+            padding: 20px;
+        }
+    }
+}
+.card__text{
+    margin-bottom: 20px;
+}
+
